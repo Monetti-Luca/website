@@ -3,11 +3,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+import Navbar from "./Components/Navbar.jsx";
+
 // Main App Function
 const App = () => {
     return (
         <div className="app">
-            <h1 className="title">This is my title</h1>
+            <Navbar />
         </div>
     );
 };

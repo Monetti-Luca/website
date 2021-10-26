@@ -1,0 +1,37 @@
+.navbar-container {
+    max-width: 1366px;
+    width: 100%;
+    padding: 2rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.link-elem {
+    margin-left: 1rem;
+    font-size: clamp(14px, 2vw, 1.3rem);
+}
+
+.link-elem a {
+    text-decoration: none;
+    color: gray;
+    font-weight: 600;
+
+    transition: color 0.5s ease;
+}
+
+.link-elem a:hover {
+    color: crimson;
+
+    transition: color 0.5s ease;
+}
