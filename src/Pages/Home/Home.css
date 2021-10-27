@@ -1,0 +1,57 @@
+.home-container {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),
+        url("../../Assets/img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero-content {
+    max-width: 1366px;
+    width: 100%;
+    min-height: 100vh;
+
+    margin: 0 auto;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text h1 {
+    color: whitesmoke;
+    font-size: clamp(4rem, 4vw, 6rem);
+    letter-spacing: 0.06em;
+}
+
+.text p {
+    color: whitesmoke;
+    font-size: clamp(1rem, 3vw, 2.5rem);
+    letter-spacing: 0.05em;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+.text a.button {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: crimson;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    border: 3px solid crimson;
+    padding: 0.5em 1em;
+    margin-top: 2rem;
+    font-weight: 700;
+    position: relative;
+    background: transparent;
+    transition: background 0.7s ease, color 0.7s ease;
+}
+
+.text a.button:hover {
+    background: crimson;
+    color: #171a29;
+    transition: background, color 0.7s ease;
+}
